@@ -3,14 +3,14 @@
 
 # Project Title
 
-**Online Food Blog Website**
+**Online Donation Management System Website**
 
 # Problem Statement :
-Building an Online Food Blog Website that will make use of Azure Services and assist users in finding a variety of eateries and dishes that are affordable for all budgets. Numerous restaurants close to your locations are listed on our website. With the internet's great availability, you may conveniently search and shop for your preferred restaurants from the comfort of your home.
+In today's digitally interconnected world, the lack of a streamlined and secure online donation management system poses a significant challenge for charitable organizations and websites dedicated to promoting affordable eateries. Existing solutions often suffer from cumbersome processes, security vulnerabilities, and a lack of integration with essential services. The absence of a robust system hinders the ability to efficiently process and track donations, resulting in potential financial loss, data breaches, and a suboptimal user experience. This project aims to address these challenges by implementing an innovative online donation management system, seamlessly integrated with Azure Services, ensuring a secure, user-friendly, and transparent process for donors, while supporting the mission of promoting affordable dining options.
 
 # Project Description :
 
-The primary objective of the Azure-Hosted Online Food Blog project is to establish a vibrant and user-centric online community. Here, food enthusiasts can explore, exchange, and relish an extensive array of recipes. Leveraging the robust capabilities of Microsoft Azure, the project strives to provide users and administrators with access to a scalable, secure, and feature-rich environment. Positioned as a dynamic epicenter within the community, the Online Food Blog offers a seamless and enjoyable platform for discovering, sharing, and engaging with a diverse range of food-related content.
+The main goal of our project is to create and deploy an advanced online donation management system that can be used by platforms that promote low-cost restaurants as well as charitable organisations. In order to give contributors a simple, safe, and easy-to-use experience and make donating to deserving organisations, the system will make use of state-of-the-art Azure Services.The goal of this project is to completely transform the contribution management industry by offering a strong, adaptable, and cutting-edge system that supports platforms that offer reasonably priced dining options and charity organisations. We aim to develop a system that not only makes financial contributions easier but also fosters an open and interesting relationship between contributors and the organisations they support. To do this, we plan to make advantage of Azure Services' capabilities.
 
 # Industry Type :
 
