@@ -53,11 +53,11 @@ Lifestyle
 
 - **Web Application hosted on Azure: https://foodblogprojects.azurewebsites.net/**
   
-- **Github Repository : https://github.com/aakashrsethi/vaibhavi.git**
+- **Github Repository : https://github.com/aakashrsethi/donationmanagement.git**
 
 - **Project Video URL : https://drive.google.com/file/d/1VdL0lUG_N1l7SYUndJRUWA9r_PgiuC2B/view?usp=sharing**
   
-- **Code : [https://github.com/aakashrsethi/vaibhavi.git**](https://github.com/aakashrsethi/vaibhavi.git)**
+- **Code : https://github.com/aakashrsethi/donationmanagement.git**
   
 - **Project Documentation url:** [**https://drive.google.com/file/d/1hgPsnxk9O74BBfWMyFD0nTk2E2FGe-2H/view?usp=sharing**](https://drive.google.com/file/d/1hgPsnxk9O74BBfWMyFD0nTk2E2FGe-2H/view?usp=sharing)
 
