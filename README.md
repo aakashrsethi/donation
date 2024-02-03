@@ -51,7 +51,7 @@ Lifestyle
 
 # Working Links of Project:
 
-- **Web Application hosted on Azure: https://foodblogprojects.azurewebsites.net/**
+- **Web Application hosted on Azure: https://donation-management-system.azurewebsites.net/**
   
 - **Github Repository : https://github.com/aakashrsethi/donationmanagement.git**
 
