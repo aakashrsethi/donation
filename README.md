@@ -72,8 +72,9 @@ Lifestyle
 # Screenshots of some Azure Services :
 
 - **Resource Group**
-  
-![a](https://github.com/aakashrsethi/vaibhavi/assets/110621778/d02bcfe5-f924-4f3a-a682-b2314d99c069)
+  ![a](https://github.com/aakashrsethi/donationmanagement/assets/110621778/2ea17d54-3b0f-4b11-a1d2-973a83609314)
+
+
 
 - **App Services**
   ![app service](https://github.com/aakashrsethi/donationmanagement/assets/110621778/6329968f-5c3f-437d-b894-b95f27e40cf4)
@@ -81,10 +82,12 @@ Lifestyle
 
 - **Virtual Network**
   
-![c](https://github.com/aakashrsethi/vaibhavi/assets/110621778/e98f0a16-ed23-473c-98d8-e33e7b50dd75)
+![c](https://github.com/aakashrsethi/donationmanagement/assets/110621778/12c9a770-36ef-4b60-9cb9-631bff99bab3)
+
 
 - **Virtual Network Integration**
-![d](https://github.com/aakashrsethi/vaibhavi/assets/110621778/7c54b88b-8958-4676-b329-9e26e2ff675d)
+![d](https://github.com/aakashrsethi/donationmanagement/assets/110621778/01bd1f66-e808-4869-98fc-127e68566f87)
+
 
 - **Language Services**
   
@@ -101,7 +104,7 @@ Lifestyle
 ![insights](https://github.com/aakashrsethi/donationmanagement/assets/110621778/4f7dcc47-ff70-4a33-9b77-8c4738d14f45)
 
 
-- **API Mnagement**
+- **API Management**
   
 ![API](https://github.com/aakashrsethi/donationmanagement/assets/110621778/0f72e703-1bb1-453d-bbb4-12e21cde3424)
 
