@@ -76,8 +76,8 @@ Lifestyle
 ![a](https://github.com/aakashrsethi/vaibhavi/assets/110621778/d02bcfe5-f924-4f3a-a682-b2314d99c069)
 
 - **App Services**
-  
-![b](https://github.com/aakashrsethi/vaibhavi/assets/110621778/ee13c9d0-996f-40b7-953b-16ba75e3b23b)
+  ![app service](https://github.com/aakashrsethi/donationmanagement/assets/110621778/6329968f-5c3f-437d-b894-b95f27e40cf4)
+
 
 - **Virtual Network**
   
@@ -88,38 +88,46 @@ Lifestyle
 
 - **Language Services**
   
-![e](https://github.com/aakashrsethi/vaibhavi/assets/110621778/e34d80cf-576b-467a-a1a2-75251233a4cb)
+![language services](https://github.com/aakashrsethi/donationmanagement/assets/110621778/717e4c94-075a-4ad7-b74f-3a14c80ff3e2)
+
 
 - **Azure Bot Service**
   
-![f](https://github.com/aakashrsethi/vaibhavi/assets/110621778/6cd1ff83-a625-4800-a060-7ce7ceb177f5)
+![chatbot](https://github.com/aakashrsethi/donationmanagement/assets/110621778/631ee755-ff6e-4dc6-be80-cad5d1480aee)
+
 
 - **Application Insights**
   
-![g](https://github.com/aakashrsethi/vaibhavi/assets/110621778/f0207479-020e-49e8-bbfa-03fcb0557917)
+![insights](https://github.com/aakashrsethi/donationmanagement/assets/110621778/4f7dcc47-ff70-4a33-9b77-8c4738d14f45)
+
 
 - **API Mnagement**
   
-![h](https://github.com/aakashrsethi/vaibhavi/assets/110621778/16588a49-8f88-4e8e-a4ff-7e29e837cc23)
+![API](https://github.com/aakashrsethi/donationmanagement/assets/110621778/0f72e703-1bb1-453d-bbb4-12e21cde3424)
+
 
 
 # ScreenShots of the website after deploying 
 
 - **Default Page**
 
-![Screenshot 2024-01-19 215330](https://github.com/aakashrsethi/vaibhavi/assets/110621778/710bcbec-2aa1-42d1-b203-be8b3103716d)
+![default](https://github.com/aakashrsethi/donationmanagement/assets/110621778/7b9479ef-a930-4106-879d-92dbef8a3218)
 
-- **About Page**
 
-![2](https://github.com/aakashrsethi/vaibhavi/assets/110621778/a13d6871-7489-4c2c-b573-1f45b888a58e)
+- **Gallery Page**
+
+![gallery](https://github.com/aakashrsethi/donationmanagement/assets/110621778/c4fd9025-5afc-44e9-ae58-727cf115d07e)
+
 
 - **Contact Us Page**
 
-![3](https://github.com/aakashrsethi/vaibhavi/assets/110621778/c202c8f2-7a8a-4954-a452-87eb6fe16d77)
+![contact](https://github.com/aakashrsethi/donationmanagement/assets/110621778/6ddf97f5-4b9a-463d-b8f8-356ddd587b97)
+
 
 - **Bot Page**
 
-![4](https://github.com/aakashrsethi/vaibhavi/assets/110621778/0671ba56-7145-48b7-8d29-7d2eeda44391)
+![chatbot](https://github.com/aakashrsethi/donationmanagement/assets/110621778/d97709d3-05ea-4dd4-8e9d-bdc22fd54cc4)
+
 
 
 
