@@ -55,7 +55,7 @@ Lifestyle
   
 - **Github Repository : https://github.com/aakashrsethi/donationmanagement.git**
 
-- **Project Video URL : https://drive.google.com/file/d/1VdL0lUG_N1l7SYUndJRUWA9r_PgiuC2B/view?usp=sharing**
+- **Project Video URL : https://drive.google.com/file/d/1rzJRULWTqCTm0Im0ovb4AXrGwmYdCN6Z/view?usp=sharing**
   
 - **Code : https://github.com/aakashrsethi/donationmanagement.git**
   
