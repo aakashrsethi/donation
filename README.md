@@ -10,7 +10,15 @@ In today's digitally interconnected world, the lack of a streamlined and secure 
 
 # Project Description :
 
-The main goal of our project is to create and deploy an advanced online donation management system that can be used by platforms that promote low-cost restaurants as well as charitable organisations. In order to give contributors a simple, safe, and easy-to-use experience and make donating to deserving organisations, the system will make use of state-of-the-art Azure Services.The goal of this project is to completely transform the contribution management industry by offering a strong, adaptable, and cutting-edge system that supports platforms that offer reasonably priced dining options and charity organisations. We aim to develop a system that not only makes financial contributions easier but also fosters an open and interesting relationship between contributors and the organisations they support. To do this, we plan to make advantage of Azure Services' capabilities.
+- The core idea of our project is to address the challenges faced by both low-cost restaurants and charitable organizations in managing and receiving donations effectively.
+
+- The problem we are trying to solve is twofold: First, low-cost restaurants often struggle with limited resources to effectively manage donations and engage with contributors. Second, charitable organizations may face hurdles in receiving and managing donations efficiently, hindering their ability to fulfill their missions.
+
+- To tackle these issues, we are developing an advanced online donation management system leveraging state-of-the-art Azure Services. By creating a unified platform, we aim to provide a simple, safe, and easy-to-use experience for contributors while ensuring that both low-cost restaurants and charitable organizations can efficiently manage donations and foster meaningful relationships with their supporters.
+
+- Our project addresses a clear need by streamlining the donation process for both contributors and organizations, thereby enhancing transparency, efficiency, and trust in the donation management industry. The solution is clearly explained through our focus on leveraging Azure Services to develop a robust and adaptable system that meets the specific needs of low-cost restaurants and charitable organizations.
+
+- The purpose and basic functionality of our project are closely mapped to the problem statement and opportunity area. By offering a comprehensive donation management system tailored to the needs of both low-cost restaurants and charitable organizations, we aim to revolutionize the way contributions are managed and facilitate greater support for deserving causes.
 
 # Industry Type :
 
