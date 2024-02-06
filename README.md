@@ -73,11 +73,12 @@ Lifestyle
 
 - **Resource Group**
   
-  ![a](https://github.com/aakashrsethi/donationmanagement/assets/110621778/2ea17d54-3b0f-4b11-a1d2-973a83609314)
+![a](https://github.com/aakashrsethi/donationmanagement/assets/110621778/2ea17d54-3b0f-4b11-a1d2-973a83609314)
 
 - **App Services**
   
-  ![app service](https://github.com/aakashrsethi/donationmanagement/assets/110621778/6329968f-5c3f-437d-b894-b95f27e40cf4)
+![app service](https://github.com/aakashrsethi/donationmanagement/assets/110621778/e6523237-d1a9-43b1-8fe8-f17e87ddf7f8)
+ 
 
 - **Virtual Network**
 
@@ -90,37 +91,45 @@ Lifestyle
 
 - **Language Services**
   
-![language services](https://github.com/aakashrsethi/donationmanagement/assets/110621778/717e4c94-075a-4ad7-b74f-3a14c80ff3e2)
+![language services](https://github.com/aakashrsethi/donationmanagement/assets/110621778/e658c8f9-7695-46c5-ab24-6abb2655f776)
+
 
 - **Azure Bot Service**
   
-![chatbot](https://github.com/aakashrsethi/donationmanagement/assets/110621778/631ee755-ff6e-4dc6-be80-cad5d1480aee)
+![bot-6](https://github.com/aakashrsethi/donationmanagement/assets/110621778/4d1e39b1-398e-4a4b-95ec-6746c25fa10d)
+
 
 - **Application Insights**
   
-![insights](https://github.com/aakashrsethi/donationmanagement/assets/110621778/4f7dcc47-ff70-4a33-9b77-8c4738d14f45)
+![insights](https://github.com/aakashrsethi/donationmanagement/assets/110621778/31d6408d-47f4-4294-8068-2e02e96f027e)
+
 
 - **API Management**
   
-![API](https://github.com/aakashrsethi/donationmanagement/assets/110621778/0f72e703-1bb1-453d-bbb4-12e21cde3424)
+![API](https://github.com/aakashrsethi/donationmanagement/assets/110621778/4ae24957-e599-4b10-81e3-0b1abb8b28db)
+
 
 # ScreenShots of the website after deploying 
 
 - **Default Page**
 
-![default](https://github.com/aakashrsethi/donationmanagement/assets/110621778/7b9479ef-a930-4106-879d-92dbef8a3218)
+![default](https://github.com/aakashrsethi/donationmanagement/assets/110621778/bdfada02-9c35-4770-beb0-6f2a4a331e41)
+
 
 - **Gallery Page**
 
-![gallery](https://github.com/aakashrsethi/donationmanagement/assets/110621778/c4fd9025-5afc-44e9-ae58-727cf115d07e)
+![gallery](https://github.com/aakashrsethi/donationmanagement/assets/110621778/eca72099-2c8d-42a3-9adc-10492a569522)
+
 
 - **Contact Us Page**
 
-![contact](https://github.com/aakashrsethi/donationmanagement/assets/110621778/6ddf97f5-4b9a-463d-b8f8-356ddd587b97)
+![contact](https://github.com/aakashrsethi/donationmanagement/assets/110621778/b0fe86fd-d4ec-4aa9-b055-0d4fbb8a800f)
+
 
 - **Bot Page**
 
-![chatbot](https://github.com/aakashrsethi/donationmanagement/assets/110621778/d97709d3-05ea-4dd4-8e9d-bdc22fd54cc4)
+![bot-6](https://github.com/aakashrsethi/donationmanagement/assets/110621778/03a7d6e3-335e-4c3c-a159-3cff88259627)
+
 
 
 
