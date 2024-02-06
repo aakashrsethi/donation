@@ -80,8 +80,9 @@ Lifestyle
   ![app service](https://github.com/aakashrsethi/donationmanagement/assets/110621778/6329968f-5c3f-437d-b894-b95f27e40cf4)
 
 - **Virtual Network**
-  
-![c](https://github.com/aakashrsethi/donationmanagement/assets/110621778/12c9a770-36ef-4b60-9cb9-631bff99bab3)
+
+![vnet-6](https://github.com/aakashrsethi/donationmanagement/assets/110621778/415e39ed-b5dd-442a-934b-c3abf36acf11)
+
 
 - **Virtual Network Integration**
   
