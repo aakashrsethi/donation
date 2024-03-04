@@ -173,130 +173,33 @@ document.getElementById("useremail").innerText = currentUser.email;
 
     if (donationName === "" || collectionLoc === "" || description === "") {
         alert("All fields are required.");
-        return false; // Prevent form submission
+        return false; 
     }
-    // If form is valid, proceed with storing the data
+    
     storeData();
-    return false; // Prevent form submission (since data is stored via JavaScript)
+    return false; 
 }
 
 function storeData() {
-    var donationName = document.getElementById("donationname").value; // Assuming you want to store the file path or name
+    var donationName = document.getElementById("donationname").value; 
     var collectionLoc = document.getElementById("collectionloc").value;
     var description = document.getElementById("description").value;
 
-    // Create an object to store form data
     var donationData = {
         donationName: donationName,
         collectionLoc: collectionLoc,
         description: description
     };
 
-    // Store data in localStorage
     localStorage.setItem("donationData", JSON.stringify(donationData));
     alert("Thankyou, We will reach you soon 👌");
 
-    // Optionally, you can redirect to another page after storing the data
     window.location.href = "show_data.html";
 
 
 }
 
-        </script>
-    
-         
-        <!-- <div class="row">
-            <div class="col-sm-4 p-4 text-center mydiv">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="text-success">My Total Donations</h4>
-                        <h3>gh</h3>
-                       
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="small-box-footer">More info <i
-                            class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-sm-4 p-4 text-center mydiv">
-                
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="text-success">My Accepted Donations</h4>
-                        <h3>gh</h3>
-                       
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="small-box-footer">More info <i
-                            class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-sm-4 p-4 text-center mydiv">
-                
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="text-success">My Rejected Donations</h4>
-                        <h3>jk</h3>
-                       
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="small-box-footer">More info <i
-                            class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-sm-4 p-4 text-center mydiv">
-                
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="text-success">My Pending Donations</h4>
-                        <h3>{{s1}}</h3>
-                       
-                    </div>
-                    <div class="card-footer">
-                        <a href="{% url 'donationpending_donor' %}" class="small-box-footer">More info <i
-                            class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-sm-4 p-4 text-center mydiv">
-                
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="text-success">My Successfully Delivered Donations</h4>
-                        <h3>{{s2}}</h3>
-                       
-                    </div>
-                    <div class="card-footer">
-                        <a href="{% url 'donationdelivered_donor' %}" class="small-box-footer">More info <i
-                            class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-sm-4 p-4 text-center mydiv">
-                
-                <div class="card shadow">
-                    <div class="card-body">
-                        <h4 class="text-success">My Received Donations</h4>
-                        <h3>{{s6}}</h3>
-                       
-                    </div>
-                    <div class="card-footer">
-                        <a href="{% url 'donationreceived_donor' %}" class="small-box-footer">More info <i
-                            class="fas fa-arrow-circle-right"></i></a>
-                    </div>
-                    
-                </div>
-            </div> -->
-            
-            
+        </script>            
         </div>
         <style>
             .mydiv:hover{
