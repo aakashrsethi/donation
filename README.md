@@ -138,6 +138,9 @@ Lifestyle
 
 ![bot-6](https://github.com/aakashrsethi/donationmanagement/assets/110621778/03a7d6e3-335e-4c3c-a159-3cff88259627)
 
+- **Donate Page**
+
+![image](https://github.com/aakashrsethi/donation/assets/110621778/d366075d-c930-4bf3-8b93-5e482e6acff0)
 
 
 
