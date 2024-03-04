@@ -61,11 +61,11 @@ Lifestyle
 
 - **Web Application hosted on Azure:https://donationproject.azurewebsites.net/**
   
-- **Github Repository : https://github.com/aakashrsethi/donationmanagement.git**
+- **Github Repository : https://github.com/aakashrsethi/donation.git**
 
 - **Project Video URL : https://drive.google.com/file/d/1rzJRULWTqCTm0Im0ovb4AXrGwmYdCN6Z/view?usp=sharing**
   
-- **Code : https://github.com/aakashrsethi/donationmanagement.git**
+- **Code : https://github.com/aakashrsethi/donation.git**
   
 - **Project Documentation url:https://drive.google.com/file/d/1WLBf84af8p5dL0JjbG7IDoqqHU1susjZ/view?usp=sharing** 
 
