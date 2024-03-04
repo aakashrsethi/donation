@@ -1,0 +1,311 @@
+<html>
+    <head>
+
+        <title>Donation Management System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src= "https //maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="./static/css/sidebar.css">
+        <script src="./static/js/myjs.js"></script>
+
+        <!--For data table-->
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+
+<style>
+    /* Style to move the form to the left */
+    .leftho {
+        margin-left: 20%; /* Adjust this value to move the form more or less to the left */
+        margin-right: 5%;
+    }
+</style>
+
+<script>
+    $(document).ready(function() {
+    $('#example').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'copyHtml5',
+            'excelHtml5',
+            'csvHtml5',
+            'pdfHtml5'
+        ]
+    } );
+} );
+</script>
+
+    </head>
+    <body>
+        <div class="vertical-nav bg-white" id="sidebar">
+            <div class="py-4 px-3 mb-1 bg-light mb-1">
+                <p class="text-center font-weight-bold text-uppercase px-3 small dashboard-text">Donation Management System</p>
+                <div class="media d-flex align-items-center">
+                    <img src="./static/images/Avatar-Transparent-Images.png" width="80" height="80" class="rounded-circle img-thumbnail shadow-sm" >
+                    <div class="media-body">
+                        <h4 class="mb-0"><span id="username"></span></h4>
+                        <p class="text-muted mb-0" id="useremail"><span id="useremail"></span></p>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav flex-column bg-white">
+                <li class="nav-item">
+                    <a href="donor_home.html" class="nav-link text-dark bg-light">
+                        <i class="fas fa-tachometer-alt fa-fw mr-3 text-primary"></i>Dashboard</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="donor_home.html" class="nav-link text-dark bg-light">
+                        <i class="fas fa-tachometer-alt fa-fw mr-3 text-primary"></i>Donate Now</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a href="show_data.html" class="nav-link text-dark bg-light">
+                        <i class="fas fa-tachometer-alt fa-fw mr-3 text-primary"></i>Donation History</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link text-dark bg-light">
+                        <i class="fa fa-tachometer-alt fa-fw mr-3 text-primary"></i>Profile</a>
+
+                </li>   
+            </ul>
+        </div>
+
+        
+
+        <div class="page-content p-4" id="content">
+            <a href="index.html" title="logout" class="float-right text-white" ><i class="fas fa-sign-out-alt"></i>Logout</a>
+            <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4">
+                <i class="fas fa-bars mr-2"></i>
+                <small class="text-uppercase font-weight-bold">Toggle</small>
+            </button>
+                
+
+        </div>
+        <hr class= mt-0>
+        <div class="card-shadow">
+        <div class="card-body bg-white leftho">
+        
+        <h5 class="p-2" style="border-bottom:2px solid orange">Donate Now</h5>
+        
+        <div class="container-fluid">
+            <form id="donationForm" onsubmit="return validateForm()">
+                
+                <div class="form-row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                        <label for="donationname">
+                            Donation Name<span style="color:red">(Note:If you select other,plz mention detail in description field)</span>
+                        </label>
+                        <select name="donationname" id="donationname" class="form-control" required>
+                            <option value="Food Donation">Food Donation</option>
+                            <option value="Cloth Donation">Cloth Donation</option>
+                            <option value="Footwear Donation">Footwear Donation</option>
+                            <option value="Books Donation">Books Donation</option>
+                            <option value="Furniture Donation">Furniture Donation</option>
+                            <option value="Vessel Donation">Vessel Donation</option>
+                            <option value="Toy Donation">Toy Donation</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                        <label for="collectionloc" >
+                            Donation Collection Address
+                        </label>
+                        <textarea name="collectionloc" id="collectionloc" class="form-control" placeholder="Enter Full Address" required></textarea>
+                        </div>
+                    
+
+                    </div>
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                        <label for="description">
+                            Description(Special Note)
+                        </label>
+                        <textarea name="description" id="description" class="form-control" placeholder="Special note for donation" required></textarea>
+                        </div>
+                    
+
+                    </div>
+                    
+
+
+
+                <input type="submit" value="Donate Happiness" class="btn btn-danger px-3 ">
+
+                </div>
+                
+
+            </form>
+
+        </div>
+<script>
+   var currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+// Display username and email
+document.getElementById("username").innerText = currentUser.firstname + " " + currentUser.lastname;
+document.getElementById("useremail").innerText = currentUser.email;
+
+    function validateForm() {
+    var donationName = document.getElementById("donationname").value;
+    var donationPic = document.getElementById("donationpic").value;
+    var collectionLoc = document.getElementById("collectionloc").value;
+    var description = document.getElementById("description").value;
+
+    if (donationName === "" || donationPic === "" || collectionLoc === "" || description === "") {
+        alert("All fields are required.");
+        return false; // Prevent form submission
+    }
+    // If form is valid, proceed with storing the data
+    storeData();
+    return false; // Prevent form submission (since data is stored via JavaScript)
+}
+
+function storeData() {
+    var donationName = document.getElementById("donationname").value;
+    var donationPic = document.getElementById("donationpic").value; // Assuming you want to store the file path or name
+    var collectionLoc = document.getElementById("collectionloc").value;
+    var description = document.getElementById("description").value;
+
+    // Create an object to store form data
+    var donationData = {
+        donationName: donationName,
+        donationPic: donationPic,
+        collectionLoc: collectionLoc,
+        description: description
+    };
+
+    // Store data in localStorage
+    localStorage.setItem("donationData", JSON.stringify(donationData));
+    alert("Thankyou, We will reach you soon 👌");
+
+    // Optionally, you can redirect to another page after storing the data
+    window.location.href = "show_data.html";
+
+
+}
+
+        </script>
+    
+         
+        <!-- <div class="row">
+            <div class="col-sm-4 p-4 text-center mydiv">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="text-success">My Total Donations</h4>
+                        <h3>gh</h3>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="small-box-footer">More info <i
+                            class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4 p-4 text-center mydiv">
+                
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="text-success">My Accepted Donations</h4>
+                        <h3>gh</h3>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="small-box-footer">More info <i
+                            class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4 p-4 text-center mydiv">
+                
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="text-success">My Rejected Donations</h4>
+                        <h3>jk</h3>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="small-box-footer">More info <i
+                            class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4 p-4 text-center mydiv">
+                
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="text-success">My Pending Donations</h4>
+                        <h3>{{s1}}</h3>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="{% url 'donationpending_donor' %}" class="small-box-footer">More info <i
+                            class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4 p-4 text-center mydiv">
+                
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="text-success">My Successfully Delivered Donations</h4>
+                        <h3>{{s2}}</h3>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="{% url 'donationdelivered_donor' %}" class="small-box-footer">More info <i
+                            class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-sm-4 p-4 text-center mydiv">
+                
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h4 class="text-success">My Received Donations</h4>
+                        <h3>{{s6}}</h3>
+                       
+                    </div>
+                    <div class="card-footer">
+                        <a href="{% url 'donationreceived_donor' %}" class="small-box-footer">More info <i
+                            class="fas fa-arrow-circle-right"></i></a>
+                    </div>
+                    
+                </div>
+            </div> -->
+            
+            
+        </div>
+        <style>
+            .mydiv:hover{
+                transform: translateY(-10px);
+            }
+        </style>
+
+    </body>
+</html>

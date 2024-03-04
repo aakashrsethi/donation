@@ -59,10 +59,11 @@ body .card #header {
 }
 
 #login{
-    background-size:100%;
+    
     background-repeat:no-repeat;
     opacity:0.9;
     background-position:0px 80px;
+    background-size: cover;
 }
 
 #signupform{
@@ -78,4 +79,5 @@ body .card #header {
     top:50%;
     transform:translateY(-50%);
 }
+
 

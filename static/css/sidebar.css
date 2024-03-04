@@ -1,0 +1,44 @@
+.sidebar-title{
+    letter-spacing:0.1em;
+    color:#aaa
+}
+
+body{
+    background-image : linear-gradient(135.9deg,rgb(55,187,227) 16.4%,rgb(164,80,247) 56.1%);
+    min-height:100vh;
+}
+.vertical-nav{
+    min-width:18rem;
+    width:18rem;
+    height:100vh;
+    position:fixed;
+    top:0;
+    left:0;
+    transition:all 0.4s;
+
+}
+.page-content{
+    width:calc(100%-17rem);
+    margin-left:17rem;
+    transition:all 0.4s;
+}
+#sidebar.active{
+    margin-left:-18rem;
+}
+#content.active{
+    width:100%;
+    margin:0;
+}
+.dashboard-text{
+    letter-spacing:0.1em;
+    color:blue;
+}
+.nav-link{
+    font-weight:bold;
+}
+.vertical-nav a:hover {
+    background-color: #00021a;
+    color: white;
+    border-radius:8px;
+  }
+

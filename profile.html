@@ -1,0 +1,144 @@
+<html>
+    <head>
+
+        <title>Donation Management System</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src= "https //maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="./static/css/sidebar.css">
+        <script src="./static/js/myjs.js"></script>
+
+        <!--For data table-->
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.3.2/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+        <script src="https://cdn.datatables.net/buttons/2.3.2/js/buttons.html5.min.js"></script>
+
+
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.3.2/css/buttons.dataTables.min.css">
+
+<style>
+    /* Style to move the form to the left */
+    .leftho {
+        margin-left: 20%; /* Adjust this value to move the form more or less to the left */
+        margin-right: 5%;
+    }
+</style>
+    </head>
+    <body>
+        <div class="vertical-nav bg-white" id="sidebar">
+            <div class="py-4 px-3 mb-1 bg-light mb-1">
+                <p class="text-center font-weight-bold text-uppercase px-3 small dashboard-text">Donation Management System</p>
+                <div class="media d-flex align-items-center">
+                    <img src="./static/images/Avatar-Transparent-Images.png" width="80" height="80" class="rounded-circle img-thumbnail shadow-sm" >
+                    <div class="media-body">
+                        <h4 class="mb-0"><span id="username"></span></h4>
+                        <p class="text-muted mb-0"><span id="useremail"></span></p>
+                    </div>
+                </div>
+            </div>
+            <ul class="nav flex-column bg-white">
+                <li class="nav-item">
+                    <a href="donor_home.html" class="nav-link text-dark bg-light">
+                        <i class="fas fa-tachometer-alt fa-fw mr-3 text-primary"></i>Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a href="donor_home.html" class="nav-link text-dark bg-light">
+                        <i class="fas fa-tachometer-alt fa-fw mr-3 text-primary"></i>Donate Now</a>
+
+                </li>
+
+                <li class="nav-item">
+                    <a href="show_data.html" class="nav-link text-dark bg-light">
+                        <i class="fas fa-tachometer-alt fa-fw mr-3 text-primary"></i>Donation History</a>
+
+                </li>
+                <li class="nav-item">
+                    <a href="profile.html" class="nav-link text-dark bg-light">
+                        <i class="far fa-tachometer-alt fa-fw mr-3 text-primary"></i>Profile</a>
+
+                </li>
+   
+            </ul>
+        </div>
+
+        
+
+        <div class="page-content p-4" id="content">
+            <a href="index.html" title="logout" class="float-right text-white" ><i class="fas fa-sign-out-alt"></i>Logout</a>
+            <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4">
+                <i class="fas fa-bars mr-2"></i>
+                <small class="text-uppercase font-weight-bold">Toggle</small>
+            </button>
+                
+
+        </div>
+        
+        
+<style>
+    #rcorners1{
+      background: rgb(171, 14, 219);
+      border-radius: 25px;
+      color:white;    
+  }
+  </style>
+
+<hr class=  mt-0>
+<div class="card-shadow">
+    <div class="card-body bg-white leftho">
+        <h5 class="p-2" style="border-bottom:2px solid orange">View Donation Detail</h5>
+        <div class="container-fluid">     
+                <table class="table table-bordered">
+                    <tr align="center">
+                        <td colspan="4" style="font-size:20px ;color:red">Donor Details</td>
+    
+                    </tr>
+                    <tr>
+                        <th>Donor Name</th>
+                        <td id="userkaname"></td>
+                        <th>Donor Contact</th>
+                        <td id="userkacontact"></td>
+                    </tr>
+                    <tr>
+                        <th>Email</th>
+                        <td id="userkaemail"></td>
+                        <th>Donor Address</th>
+                        <td id="userkaadd"></td>
+                    </tr>
+            </table>
+        </div>
+    </div>
+
+</div>
+<script>
+     var currentUser = JSON.parse(localStorage.getItem("currentUser"));
+
+// Display username and email
+document.getElementById("username").innerText = currentUser.firstname + " " + currentUser.lastname;
+document.getElementById("useremail").innerText = currentUser.email;
+document.getElementById("userkaname").textContent = currentUser.firstname + " " + currentUser.lastname;
+document.getElementById("userkaemail").textContent = currentUser.email;
+document.getElementById("userkacontact").textContent = currentUser.contact;
+document.getElementById("userkaadd").textContent = currentUser.address;
+
+</script>   
+        </div>
+        <style>
+            .mydiv:hover{
+                transform: translateY(-10px);
+            }
+        </style>
+
+    </body>
+</html>
