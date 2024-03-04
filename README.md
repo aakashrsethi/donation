@@ -59,7 +59,7 @@ Lifestyle
 
 # Working Links of Project:
 
-- **Web Application hosted on Azure:https://donations-management-system.azurewebsites.net/**
+- **Web Application hosted on Azure:https://donationproject.azurewebsites.net/**
   
 - **Github Repository : https://github.com/aakashrsethi/donationmanagement.git**
 
