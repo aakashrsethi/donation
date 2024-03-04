@@ -138,11 +138,27 @@ Lifestyle
 
 ![bot-6](https://github.com/aakashrsethi/donationmanagement/assets/110621778/03a7d6e3-335e-4c3c-a159-3cff88259627)
 
-- **Donate Page**
+- **Sign Up Page**
 
 ![image](https://github.com/aakashrsethi/donation/assets/110621778/d366075d-c930-4bf3-8b93-5e482e6acff0)
 
+- **Login Page**
 
+![image](https://github.com/aakashrsethi/donation/assets/110621778/35c02a2c-d506-46dc-8ce2-13cc02db9eb6)
+
+- **Donate Page**
+
+![image](https://github.com/aakashrsethi/donation/assets/110621778/cadffb35-0501-4ac4-ad4c-4e1897876504)
+
+  
+- **Donation history Page**
+
+![image](https://github.com/aakashrsethi/donation/assets/110621778/9dcfb06d-b37b-4926-88cf-1edf8877d293)
+
+
+- **Profile Page**
+
+![image](https://github.com/aakashrsethi/donation/assets/110621778/758c8746-1395-4623-947d-cf9a0ace62ae)
 
 
 
