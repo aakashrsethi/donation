@@ -168,11 +168,10 @@ document.getElementById("useremail").innerText = currentUser.email;
 
     function validateForm() {
     var donationName = document.getElementById("donationname").value;
-    var donationPic = document.getElementById("donationpic").value;
     var collectionLoc = document.getElementById("collectionloc").value;
     var description = document.getElementById("description").value;
 
-    if (donationName === "" || donationPic === "" || collectionLoc === "" || description === "") {
+    if (donationName === "" || collectionLoc === "" || description === "") {
         alert("All fields are required.");
         return false; // Prevent form submission
     }
@@ -182,15 +181,13 @@ document.getElementById("useremail").innerText = currentUser.email;
 }
 
 function storeData() {
-    var donationName = document.getElementById("donationname").value;
-    var donationPic = document.getElementById("donationpic").value; // Assuming you want to store the file path or name
+    var donationName = document.getElementById("donationname").value; // Assuming you want to store the file path or name
     var collectionLoc = document.getElementById("collectionloc").value;
     var description = document.getElementById("description").value;
 
     // Create an object to store form data
     var donationData = {
         donationName: donationName,
-        donationPic: donationPic,
         collectionLoc: collectionLoc,
         description: description
     };
