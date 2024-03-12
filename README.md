@@ -7,7 +7,7 @@
 
 # Project Members :- 
 
-- Aakash Sethi, Rajesh Kommireddi and Vaibhavi Ganjale
+**Aakash Sethi, Rajesh Kommireddi and Vaibhavi Ganjale**
 
 # Contrubtions of members:- 
 - Aakash Sethi Created the web app by using the following language, HTML, CSS and JS.
