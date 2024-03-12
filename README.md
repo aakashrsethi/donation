@@ -5,6 +5,17 @@
 
 **Online Donation Management System Website**
 
+# Project Members :- 
+
+- Aakash Sethi, Rajesh Kommireddi and Vaibhavi Ganjale
+
+# Contrubtions of members:- 
+- Aakash Sethi Created the web app by using the following language, HTML, CSS and JS.
+
+- Aakash Sethi, Rajesh Kommireddi and Vaibhavi Ganjale deployed the project in azure by using it's service that is app service, api management and language studio in that we created a chat bot.
+
+
+
 # Problem Statement :
 In today's digitally interconnected world, the lack of a streamlined and secure online donation management system poses a significant challenge for charitable organizations and websites dedicated to promoting affordable eateries. Existing solutions often suffer from cumbersome processes, security vulnerabilities, and a lack of integration with essential services. The absence of a robust system hinders the ability to efficiently process and track donations, resulting in potential financial loss, data breaches, and a suboptimal user experience. This project aims to address these challenges by implementing an innovative online donation management system, seamlessly integrated with Azure Services, ensuring a secure, user-friendly, and transparent process for donors, while supporting the mission of promoting affordable dining options.
 
